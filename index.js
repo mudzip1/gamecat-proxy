@@ -29,9 +29,9 @@ httpServer.on("request", (req, res) => {
 
 httpServer.on("listening", () => {
   console.log("HTTP server listening");
-  console.log("View your server at localhost:2100")
+  console.log("View your server at localhost:2200")
 });
 
 httpServer.listen({
-  port: 2100,
+  port: 2200,
 });
